@@ -1,3 +1,4 @@
+import React from "react";
 import Accordion from "@/components/Accordion";
 import Alerts from "@/components/Alerts";
 import AnimatedComponents from "@/components/AnimatedComponents";
@@ -6,9 +7,11 @@ import Badge from "@/components/Badge";
 import Breadcrumb from "@/components/Breadcrumb";
 import Button from "@/components/Button";
 import Card from "@/components/Card";
+import CreditCard from "@/components/CreditCard";
+import Headers from "@/components/Headers";
 import Input from "@/components/Input";
 import Skeleton from "@/components/Skeleton";
-import React from "react";
+import Table from "@/components/Table";
 
 const Home = () => {
   return (
@@ -24,6 +27,9 @@ const Home = () => {
       <Skeleton />
       <Skeleton />
       <Breadcrumb />
+      <Headers />
+      <Table />
+      <CreditCard />
     </main>
   );
 };
